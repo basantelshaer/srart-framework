@@ -1,7 +1,7 @@
 import { useState } from "react";
-import img1 from '../../Assets/port1.png'
-import img2 from '../../Assets/port2.png'
-import img3 from '../../Assets/port3.png'
+import img1 from '../../assets/port1.png'
+import img2 from '../../assets/port2.png'
+import img3 from '../../assets/port3.png'
 import './portfolio.css'
 
 export default function Portfolio() {
