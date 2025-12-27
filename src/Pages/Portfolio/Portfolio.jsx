@@ -1,5 +1,5 @@
 import { useState } from "react";
-import img1 from '../../Assets/poert1.png'
+import img1 from '../../Assets/port1.png'
 import img2 from '../../Assets/port2.png'
 import img3 from '../../Assets/port3.png'
 import './portfolio.css'
