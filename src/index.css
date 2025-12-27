@@ -1,0 +1,33 @@
+.bg-main-color{
+    background-color:#2C3E50;
+}
+.main-color{
+    color:#2C3E50;
+}
+.bg-second-color{
+    background-color: #1ABC9C;
+}
+.star::before {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 4px;
+    background-color: white;
+    left:38%;
+    top: 50%;
+    transform:translatey(-50%)
+}
+.star::after {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 4px;
+    background-color: white;
+    right: 38%;
+    top: 50%;
+    transform:translatey(-50%)
+}
+.star.star-dark::before,
+.star.star-dark::after {
+    background-color: #2c3e50;
+}
